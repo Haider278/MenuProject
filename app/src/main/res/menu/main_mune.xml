@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/setting_1"
+        android:title="Setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/phone_1"
+        android:title="Phone"
+        android:icon="@drawable/ic_baseline_phone_24"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/connect_1"
+        android:title="Connect"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/help_1"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_help_24"
+        app:showAsAction="ifRoom"/>
+</menu>
